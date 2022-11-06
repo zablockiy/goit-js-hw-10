@@ -23,8 +23,7 @@ function onInput(e) {
   }
   fetchCountries(countryName)
     .then(addMarkUp)
-    .catch(() =>
-      Notiflix.Notify.failure('Oops, there is no country with that name')
+    .catch(() => { Notiflix.Notify.failure('Oops, there is no country with that name')}
     );
 }
 
