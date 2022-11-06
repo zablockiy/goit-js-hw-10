@@ -18,3 +18,21 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  margin-right: 30px;
+}
+
+span.name {
+  font-size: 30px;
+}
+.country-list {
+  list-style: none;
+}
+p {
+  font-weight:  bold;
+}
+.capital, .population, .languages {
+  font-weight: normal;
+}
+
